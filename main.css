@@ -1,0 +1,19 @@
+.square {
+    padding: 24px;
+    background-color: blue;
+    width: 333px;
+    height: 70px;
+    border: 1px solid black;
+    
+  }
+  
+  #container {
+    display: flex;
+    width: 1000px;
+    height: 480px;
+    flex-direction: column;
+  }
+  
+  .rectangle {
+    display: flex;
+  }
