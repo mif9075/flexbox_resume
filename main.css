@@ -1,27 +1,27 @@
 .square {
-    padding: 24px;
-    background-color: blue;
-    width: 333px;
-    height: 70px;
-    border: 1px solid black;
-  }
-  
+  padding: 0px;
+  /* background-color: blue; */
+  width: 472px;
+  height: 210px;
+  border: 1px solid black;
+}
 
+#container {
+  display: flex;
+  width: 1000px;
+  height: 700px;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
+.rectangle {
+  display: flex;
+  
+}
 
-  
-  #container {
-    display: flex;
-    width: 1000px;
-    height: 480px;
-    flex-direction: column;
-  }
-  
-  
-  .rectangle {
-    display: flex;
-    
-  }
+#left_bar {
+  background-color: black;
+  color: white;
+}
 
- 
   
