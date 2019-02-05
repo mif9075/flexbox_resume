@@ -1,11 +1,12 @@
+/* Content in 12 flex boxes 4x3*/
 .square {
   padding: 0px;
-  /* background-color: blue; */
   width: 472px;
   height: 210px;
   border: 1px solid black;
 }
 
+/* Container of all 12 flex boxes */
 #container {
   display: flex;
   width: 1000px;
@@ -14,11 +15,12 @@
   align-items: flex-start;
 }
 
+/* Set of 3 flex boxes */
 .rectangle {
   display: flex;
-  
 }
 
+/* Black Background on selected flex boxes */
 #left_bar {
   background-color: black;
   color: white;
