@@ -34,6 +34,24 @@
 
  /*!Media Queries Broken Under Construction!*/
 
+@media only screen and (min-width: 900px) {
+  #container {
+      width: 1000px;
+  }
+} 
+
+@media only screen and (min-width: 700px) and (max-width: 900px) {
+  #container {
+      width: 500px;
+  }
+}
+
+ @media only screen and (min-width: 500px) and (max-width: 700px) {
+  #container {
+      width: 200px;
+  }
+}
+
  @media only screen and (max-width: 600px) {
   #container {
     flex-direction: column;
@@ -41,6 +59,12 @@
 
   .rectangle {
     flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+  #container {
+      width: 100px;
   }
 }
 
@@ -55,33 +79,3 @@
     height: auto;
   }
 }
-
-
-
-/* @media screen and (max-width: 400px) {
-  #container {
-
-      width: 75px;
-  }
-}
-@media screen and (min-width: 400px) and (max-width: 500px) {
-  #container {
-      width: 100px;
-  }
-}
-
-@media screen and (min-width: 500px) and (max-width: 700px) {
-  #container {
-      width: 200px;
-  }
-}
-@media screen and (min-width: 700px) and (max-width: 900px) {
-  #container {
-      width: 500px;
-  }
-}
-@media screen and (min-width: 900px) {
-  #container {
-      width: 1000px;
-  }
-} */
