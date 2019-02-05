@@ -1,7 +1,7 @@
 /* Content in 12 flex boxes 4x3*/
 .square {
   padding: 0px;
-  width: 472px;
+  width: 333px;
   height: 210px;
   border: 1px solid black;
 }
@@ -10,8 +10,8 @@
 #container {
   display: flex;
   width: 1000px;
-  height: 700px;
-  /* flex-direction: column; */
+  height: auto;
+  flex-direction: column;
   align-items: flex-start;
 }
 
@@ -27,32 +27,11 @@
 }
 /* Other flex boxes */
 #other_bars {
-  background-color: purple;
+  background-color: white;
   color: black;
 }
 
-
- /*!Media Queries Broken Under Construction!*/
-
-@media only screen and (min-width: 900px) {
-  #container {
-      width: 1000px;
-  }
-} 
-
-@media only screen and (min-width: 700px) and (max-width: 900px) {
-  #container {
-      width: 500px;
-  }
-}
-
- @media only screen and (min-width: 500px) and (max-width: 700px) {
-  #container {
-      width: 200px;
-  }
-}
-
- @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   #container {
     flex-direction: column;
   }
@@ -62,20 +41,12 @@
   }
 }
 
-@media only screen and (min-width: 400px) and (max-width: 500px) {
-  #container {
-      width: 100px;
-  }
-}
-
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 200px) {
   #container {
     flex-direction: column;
-    height: auto;
   }
 
   .rectangle {
     flex-direction: column;
-    height: auto;
   }
 }
