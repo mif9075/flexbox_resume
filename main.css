@@ -1,24 +1,24 @@
 /* 12 flex boxes 3x4*/
-/* .square {
+.square {
   padding: 0px;
   width: 320px;
   height: 160px;
   border: 1px solid;
-} */
+}
 
 /* Container of all 12 flex boxes */
-/* #container {
+#container {
   display: flex;
   width: 1000px;
   height: auto;
-} */
+}
 
 /* Set of 3 flex boxes */
 
-/* .rectangle {
+.rectangle {
   display: flex;
-  flex-direction: column;
-} */
+  /* flex-direction: column; */
+}
 
 /* Black Background on selected flex boxes */
 
