@@ -8,10 +8,12 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 </head>
+
 <body>
         <div id="container">
-                <div class="rectangle">
-                        <div class="square" id="left_bar">
+                <sidebar>
+
+                        <div class="square" id="bio">
                                 <h4><img src="assets/Me.jpg" width=25%>
                                         Miguel A. Fernandez 
                                         <br><br>Web Developer
@@ -19,7 +21,33 @@
                                 
                         </div>
                     
-                        <div class="square" id="other_bars">
+                        <div class="square" id="about_me">
+                                <h3>ABOUT ME</h3>
+                                <P>Web developer student at Code Immersives.</p>  
+                                <p>Experienced in HTML, CSS, Flexbox and Grid Box.</P>
+                        </div>
+
+                        <div class="square" id="contact_me">
+                                <h3>CONTACT ME</h3>
+                                <P>347-453-6989</P>
+                                <P>miguel.fernandez@codeimmersives.com</P>
+                                <p>123 Main Street New York, New York, 456789</p>
+                        </div>
+
+                        <div class="square" id="social">
+                                <h3>SOCIAL</h3>
+                                <h4>
+                                    <ul>
+                                    <li>https://github.com/mif9075</li>
+                                </ul>
+                                </h4>
+                        </div>
+
+                </sidebar>
+
+                <content>
+                    <div class="experience">
+                        <div class="square" id="columbia">
                                 <h3>EXPERIENCE</h3>
                                 <h4><ul>
                                     <li><img src="assets/blood_bank.jpeg" width=15%>
@@ -31,7 +59,32 @@
                                 </h4>
                         </div>
                     
-                        <div class="square" id="other_bars">
+                        <div class="square" id="north_shore">
+                                <h4>
+                                <br><ul>
+                                <li><p>Blood Bank - 2/2012-8/2014</p>
+                                <p>North Shore University Hospital </p>
+                                <p>Manhasset, NY</p>
+                                </li>
+                                </ul>
+                                </h4>
+                        </div>
+
+                        <div class="square" id="us_army">
+                                <h4><ul>
+                                    <li>
+                                        <p>
+                                        <img src="assets/Army.png" width=10%>
+                                            U.S. Army - 11/2001-6/2009</p>
+                                        <p>Biological Research Assistant</p>
+                                        <p>USAMRIID/USARIEM</p>
+                                    </li>
+                                </ul></h4>
+                            </div>
+                    </div>
+
+                    <div class="education">
+                        <div class="square" id="dfa">
                                     <H3>EDUCATION</H3>
                                     <h4>
                                     <ul>
@@ -43,26 +96,7 @@
                                     </h4>
                         </div>
                     
-                </div>
-                <div class="rectangle">
-                        <div class="square" id="left_bar">
-                                <h3>ABOUT ME</h3>
-                                <P>Web developer student at Code Immersives.</p>  
-                                <p>Experienced in HTML, CSS, Flexbox and Grid Box.</P>
-                        </div>
-                    
-                        <div class="square" id="other_bars">
-                                <h4>
-                                <br><ul>
-                                <li><p>Blood Bank - 2/2012-8/2014</p>
-                                <p>North Shore University Hospital </p>
-                                <p>Manhasset, NY</p>
-                                </li>
-                                </ul>
-                                </h4>
-                        </div>
-                    
-                        <div class="square" id="other_bars">
+                        <div class="square" id="cincinnati">
                                 <h4><ul>
                                     <li><p><img src="assets/Ucincinatti.jpeg" width=15%>University of Cincinnati</p>
                                        <p>Cincinnati, OH  United States</p>
@@ -70,50 +104,23 @@
                                 <p>Major: Clinical Laboratory Science</p>
                                 </li></ul></h4>
                         </div>
-                </div>
-                 <div class="rectangle">
-                    <div class="square" id="left_bar">
-                        <h3>CONTACT ME</h3>
-                        <P>347-453-6989</P>
-                        <P>miguel.fernandez@codeimmersives.com</P>
-                        <p>123 Main Street New York, New York, 456789</p>
-                    </div>
-                    
-                    <div class="square" id="other_bars">
-                        <h4><ul>
-                            <li>
-                                <p>
-                                <img src="assets/Army.png" width=10%>
-                                    U.S. Army - 11/2001-6/2009</p>
-                                <p>Biological Research Assistant</p>
-                                <p>USAMRIID/USARIEM</p>
-                            </li>
-                        </ul></h4>
-                    </div>
-                    
-                    <div class="square" id="other_bars">
-                        <br>
-                        <h3>LANGUAGE</h3>
-                        <ul>
-                            <h4>
-                            <li>ENGLISH</li>
-                            <li>SPANISH</li>
-                            </h4>
-                        </ul>
-                    
-                    </div>
-                </div>
-                <div class="rectangle">
-                            <div class="square" id="left_bar">
-                                <h3>SOCIAL</h3>
-                                <h4>
-                                    <ul>
-                                    <li>https://github.com/mif9075</li>
+
+                        <div class="square" id="language">
+                                <br>
+                                <h3>LANGUAGE</h3>
+                                <ul>
+                                    <h4>
+                                    <li>ENGLISH</li>
+                                    <li>SPANISH</li>
+                                    </h4>
                                 </ul>
-                                </h4>
-                            </div>
-                            
-                            <div class="square" id="left_bar">
+                        </div> 
+                    </div>
+                    
+                </content>
+
+                <footer>
+                        <div class="square" id="software_skills">
                                 <H3>SOFTWARE SKILLS</H3>
                                 <ul>
                                     <h4>
@@ -123,7 +130,7 @@
                                 </ul>
                             </div>
                             
-                            <div class="square" id="left_bar">
+                        <div class="square" id="interest">
                                 <H3>INTEREST</H3>
                                 <UL>
                                     <!-- Include Images - Under Construction -->
@@ -132,9 +139,9 @@
                                     <li>Basketball</li>
                                     <li>Reading</li>
                                     </h4>
-                                </UL>
-                            </div>
-                </div>
+                                </ul>
+                        </div>
+                </footer>              
         </div>
 </body>
 </html>
