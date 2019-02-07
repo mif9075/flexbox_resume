@@ -13,24 +13,7 @@
   height: auto;
 }
 
-content {
-  display: flex;
-  flex-direction: column;
-}
-
-.history {
-  display: flex;
-  flex-direction: row;
-}
-
-footer {
-  display: flex;
-  flex-direction: row;
-}
-
 /* Black Background on selected flex boxes */
-
-
 
 sidebar {
   background-color: black;
@@ -43,37 +26,38 @@ h3 {
 
 /* Media Layouts */
 
-/* @media only screen and (min-width: 0px) and (max-width: 400px) and (orientation: portrait) 
+@media only screen and (min-width: 0px) and (max-width: 400px) and (orientation: portrait) 
 {
   #container {
     flex-direction: column;
   }
-  .rectangle {
-    flex-direction: column;
-  }
-} */ */
+  
+} 
 
 
-/* @media only screen and (min-width: 400px) and (max-width: 600px) and (orientation: portrait) 
+@media only screen and (min-width: 400px) and (max-width: 800px) and (orientation: portrait) 
 {
   #container {
     flex-direction: column;
   }
-  .rectangle {
+  
+  footer {
+    display: flex;
     flex-direction: column;
   }
-} */
+
+}  
 
 
-
-/* Landscape */
-
-/* @media only screen and (min-width: 400px) and (orientation: landscape) 
+@media only screen and (min-width: 800px) and (orientation: landscape) 
 {
-  #container {
-    flex-direction: column;
+  .history {
+    display: flex;
+    flex-direction: row;
   }
-  .rectangle {
+  
+  footer {
+    display: flex;
     flex-direction: row;
   }
 }
