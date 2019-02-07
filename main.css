@@ -13,30 +13,24 @@
   height: auto;
 }
 
-/* Set of 3 flex boxes */
-
-/* .rectangle {
+content {
   display: flex;
-  flex-direction: column; */
+  flex-direction: row;
 }
+
 
 /* Black Background on selected flex boxes */
 
-/* #left_bar {
+sidebar {
   background-color: black;
   color: white;
-} */
+}
 
-/* Other flex boxes */
 
-/* #other_bars {
-  background-color: white;
-  color: black;
-} */
 
-/* h3 {
+h3 {
   text-align: center;
-} */
+}
 
 /* Media Layouts */
 
