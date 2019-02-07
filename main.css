@@ -15,18 +15,27 @@
 
 content {
   display: flex;
+  flex-direction: column;
+}
+
+.history {
+  display: flex;
   flex-direction: row;
 }
 
+footer {
+  display: flex;
+  flex-direction: row;
+}
 
 /* Black Background on selected flex boxes */
+
+
 
 sidebar {
   background-color: black;
   color: white;
 }
-
-
 
 h3 {
   text-align: center;
@@ -42,7 +51,7 @@ h3 {
   .rectangle {
     flex-direction: column;
   }
-} */
+} */ */
 
 
 /* @media only screen and (min-width: 400px) and (max-width: 600px) and (orientation: portrait) 
@@ -67,7 +76,7 @@ h3 {
   .rectangle {
     flex-direction: row;
   }
-} */
+}
 
 
 
