@@ -1,23 +1,24 @@
+/* Black Background on selected flex boxes */
+.square1 {
+  background-color: black;
+  color: white;
+}
+
 /* 12 flex boxes 3x4*/
 .square {
   padding: 0px;
   width: 320px;
   height: 160px;
   border: 1px solid;
+
+  
 }
 
 /* Container of all 12 flex boxes */
 #container {
   display: flex;
-  width: 1000px;
+  width: 100px;
   height: auto;
-}
-
-/* Black Background on selected flex boxes */
-
-sidebar {
-  background-color: black;
-  color: white;
 }
 
 h3 {
@@ -28,28 +29,31 @@ h3 {
 
 @media only screen and (min-width: 0px) and (max-width: 400px) and (orientation: portrait) 
 {
-  #container {
+  #container { 
+    display: flex; 
+    flex-direction: column;
+  }
+  
+  .history {
+    display: flex;
     flex-direction: column;
   }
   
 } 
 
 
-@media only screen and (min-width: 400px) and (max-width: 800px) and (orientation: portrait) 
+@media only screen and (min-width: 400px) and (max-width: 700px) and (orientation: portrait)
 {
-  #container {
-    flex-direction: column;
-  }
+
+#container {
+  display: flex;
+} 
   
-  footer {
-    display: flex;
-    flex-direction: column;
-  }
 
 }  
+ 
 
-
-@media only screen and (min-width: 800px) and (orientation: landscape) 
+@media only screen and (min-width: 700px) and (orientation: landscape) 
 {
   .history {
     display: flex;
