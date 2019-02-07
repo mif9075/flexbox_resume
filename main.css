@@ -15,9 +15,9 @@
 
 /* Set of 3 flex boxes */
 
-.rectangle {
+/* .rectangle {
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column; */
 }
 
 /* Black Background on selected flex boxes */
